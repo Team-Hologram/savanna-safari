@@ -1,0 +1,239 @@
+{
+  "categories": [
+    {
+      "id": "sunrise",
+      "name": "Sunrise Game Drive",
+      "description": "Witness the savanna awakening with golden hour wildlife",
+      "icon": "🌅",
+      "color": "#E6B75E"
+    },
+    {
+      "id": "night",
+      "name": "Night Safari",
+      "description": "Discover nocturnal predators and rare night species",
+      "icon": "🌙",
+      "color": "#2F6A7A"
+    },
+    {
+      "id": "private",
+      "name": "Private Safari",
+      "description": "Exclusive tailored experience with personal guide",
+      "icon": "📷",
+      "color": "#FF6B35"
+    },
+    {
+      "id": "family",
+      "name": "Family Safari",
+      "description": "Kid-friendly adventure with interactive guides",
+      "icon": "👨‍👩‍👧‍👦",
+      "color": "#8AA357"
+    }
+  ],
+  "rides": [
+    {
+      "id": "ride-001",
+      "categoryId": "sunrise",
+      "title": "Sunrise Big Five Drive",
+      "description": "Experience the majesty of Africa's Big Five during the magical golden hour when wildlife is most active.",
+      "duration": "4h",
+      "price": 120,
+      "currency": "USD",
+      "highlights": ["Elephants", "Lions", "Leopards", "Birdwatching"],
+      "rating": 4.9,
+      "reviewCount": 328,
+      "images": [
+        "/images/rides/sunrise/1.jpg",
+        "/images/rides/sunrise/2.jpg"
+      ],
+      "glb": "/models/jeep.glb",
+      "availability": [
+        {
+          "date": "2025-06-10",
+          "slots": [
+            { "time": "05:00", "available": 6 },
+            { "time": "05:30", "available": 4 },
+            { "time": "06:00", "available": 8 }
+          ]
+        },
+        {
+          "date": "2025-06-11",
+          "slots": [
+            { "time": "05:00", "available": 3 },
+            { "time": "05:30", "available": 7 }
+          ]
+        }
+      ],
+      "maxGroupSize": 8,
+      "difficulty": "easy",
+      "includes": [
+        "Expert wildlife guide",
+        "Binoculars",
+        "Light breakfast",
+        "Bottled water",
+        "Park entrance fees"
+      ],
+      "excludes": ["Gratuities", "Personal items"],
+      "cancellationPolicy": "Free cancellation up to 24 hours before departure",
+      "speciesLikelihood": [
+        { "name": "Elephants", "icon": "🐘", "probability": 95 },
+        { "name": "Lions", "icon": "🦁", "probability": 75 },
+        { "name": "Giraffes", "icon": "🦒", "probability": 90 },
+        { "name": "Leopards", "icon": "🐆", "probability": 45 }
+      ]
+    },
+    {
+      "id": "ride-002",
+      "categoryId": "night",
+      "title": "Nocturnal Predator Safari",
+      "description": "Track elusive night hunters with infrared technology and expert trackers.",
+      "duration": "3h",
+      "price": 145,
+      "currency": "USD",
+      "highlights": ["Leopards", "Hyenas", "Owls", "Night Photography"],
+      "rating": 4.8,
+      "reviewCount": 192,
+      "images": ["/images/rides/night/1.jpg"],
+      "glb": "/models/jeep.glb",
+      "availability": [
+        {
+          "date": "2025-06-10",
+          "slots": [
+            { "time": "19:00", "available": 4 },
+            { "time": "20:00", "available": 2 }
+          ]
+        }
+      ],
+      "maxGroupSize": 6,
+      "difficulty": "moderate",
+      "includes": [
+        "Night vision equipment",
+        "Professional tracker",
+        "Hot beverages",
+        "Thermal blankets"
+      ],
+      "cancellationPolicy": "Free cancellation up to 48 hours before departure",
+      "speciesLikelihood": [
+        { "name": "Leopards", "icon": "🐆", "probability": 60 },
+        { "name": "Hyenas", "icon": "🐺", "probability": 85 },
+        { "name": "Owls", "icon": "🦉", "probability": 70 }
+      ]
+    },
+    {
+      "id": "ride-003",
+      "categoryId": "private",
+      "title": "Luxury Private Game Drive",
+      "description": "Fully customizable safari experience with dedicated vehicle and guide.",
+      "duration": "6h",
+      "price": 450,
+      "currency": "USD",
+      "highlights": ["Custom Itinerary", "Breakfast", "Photography"],
+      "rating": 5.0,
+      "reviewCount": 89,
+      "images": ["/images/rides/private/1.jpg"],
+      "availability": [
+        {
+          "date": "2025-06-10",
+          "slots": [{ "time": "flexible", "available": 2 }]
+        }
+      ],
+      "maxGroupSize": 4,
+      "difficulty": "easy",
+      "includes": [
+        "Private vehicle",
+        "Personal guide",
+        "Gourmet meals",
+        "Premium photography equipment"
+      ],
+      "cancellationPolicy": "Free cancellation up to 72 hours before departure",
+      "speciesLikelihood": [
+        { "name": "Big Five", "icon": "🦁", "probability": 90 }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": "addon-001",
+      "name": "Professional Photo Package",
+      "description": "Dedicated photographer captures your safari moments",
+      "price": 80,
+      "icon": "📷",
+      "category": "documentation"
+    },
+    {
+      "id": "addon-002",
+      "name": "Gourmet Picnic",
+      "description": "Artisan breakfast or lunch in the bush",
+      "price": 45,
+      "icon": "🧺",
+      "category": "comfort"
+    },
+    {
+      "id": "addon-003",
+      "name": "Private Guide",
+      "description": "Dedicated guide for your group only",
+      "price": 120,
+      "icon": "👨‍🏫",
+      "category": "experience"
+    },
+    {
+      "id": "addon-004",
+      "name": "Binocular Upgrade",
+      "description": "Premium Zeiss binoculars",
+      "price": 25,
+      "icon": "🔭",
+      "category": "experience"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route-001",
+      "name": "Main Gate - Elephant Valley",
+      "coordinates": [-2.3456, 34.8321],
+      "description": "Classic route with highest elephant sightings",
+      "popularTime": "05:00 - 07:00"
+    },
+    {
+      "id": "route-002",
+      "name": "South Entrance - Lion Pride Rock",
+      "coordinates": [-2.4123, 34.7654],
+      "description": "Known for lion and cheetah activity",
+      "popularTime": "06:00 - 09:00"
+    },
+    {
+      "id": "route-003",
+      "name": "River Lodge - Hippo Pools",
+      "coordinates": [-2.3789, 34.8567],
+      "description": "Riverside route with hippos and crocs",
+      "popularTime": "Any time"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-001",
+      "rideId": "ride-001",
+      "author": "Sarah Mitchell",
+      "rating": 5,
+      "date": "2025-05-15",
+      "content": "Absolutely breathtaking! We saw four of the Big Five and our guide was incredibly knowledgeable. The sunrise over the savanna was a once-in-a-lifetime moment.",
+      "photos": ["/images/reviews/001-1.jpg"]
+    },
+    {
+      "id": "review-002",
+      "rideId": "ride-001",
+      "author": "James Chen",
+      "rating": 5,
+      "date": "2025-05-10",
+      "content": "Our family had an amazing experience. The kids were thrilled to see elephants up close. Highly recommend the early morning slot!",
+      "photos": []
+    },
+    {
+      "id": "review-003",
+      "rideId": "ride-002",
+      "author": "Emma Rodriguez",
+      "rating": 4,
+      "date": "2025-05-08",
+      "content": "The night safari was thrilling! We tracked a leopard for 20 minutes. Only downside was it got quite cold, but they provided blankets.",
+      "photos": ["/images/reviews/003-1.jpg"]
+    }
+  ]
+}
