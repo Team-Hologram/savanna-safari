@@ -66,7 +66,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-savanna-brown dark:text-savanna-sand mb-4">
-              Let's Plan Your Safari
+              Let&apos;s Plan Your Safari
             </h2>
             <p className="text-lg text-savanna-brown/70 dark:text-savanna-sand/70">
               Have questions? Our safari experts are here to help.

@@ -155,7 +155,7 @@ export default function RideDetailPage({ params }: RideDetailPageProps) {
             {/* Species Likelihood */}
             {ride.speciesLikelihood && ride.speciesLikelihood.length > 0 && (
               <div className="bg-savanna-sand/50 dark:bg-savanna-brown-light/50 rounded-2xl p-6">
-                <h2 className="text-2xl font-bold mb-4">Wildlife You'll Likely See</h2>
+                <h2 className="text-2xl font-bold mb-4">Wildlife You&apos;ll Likely See</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {ride.speciesLikelihood.map((species) => (
                     <div key={species.name} className="text-center">

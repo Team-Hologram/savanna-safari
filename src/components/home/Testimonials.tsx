@@ -78,7 +78,7 @@ export default function Testimonials() {
             </div>
 
             <p className="text-xl md:text-2xl text-savanna-brown dark:text-savanna-sand mb-8 leading-relaxed">
-              "{currentReview.content}"
+              &quot;{currentReview.content}&quot;
             </p>
 
             <div className="flex items-center gap-4">

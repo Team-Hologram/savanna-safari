@@ -38,7 +38,7 @@ export default function AboutSection() {
           Your Trusted Safari Partner
         </h2>
         <p className="text-lg text-savanna-brown/70 dark:text-savanna-sand/70 max-w-3xl mx-auto">
-          For over two decades, we've been guiding adventurers through Africa's most spectacular landscapes. 
+          For over two decades, we&apos;ve been guiding adventurers through Africa&apos;s most spectacular landscapes. 
           Our commitment to safety, sustainability, and unforgettable experiences sets us apart.
         </p>
       </div>
